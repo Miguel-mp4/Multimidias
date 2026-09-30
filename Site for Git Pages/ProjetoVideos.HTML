@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Projeto acadêmico de Miguel Melo: conheça os formatos de áudio, vídeo e imagens utilizados na Web.">
+    <title>Vídeo · Multimídias na Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="tema-video">
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho container">
+        <a class="logo" href="ProjetoHome.HTML"><strong>Multimídias na Web</strong><small>Projeto de desenvolvimento
+                Web</small></a>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="ProjetoHome.HTML">HOME</a>
+            <a href="ProjetoSobre.HTML">SOBRE</a>
+            <a href="ProjetoHome.HTML#tipos">TIPOS</a>
+        </nav>
+    </header>
+    <main id="conteudo" class="container">
+        <section class="abertura">
+            <div><span class="sobretitulo">Pesquisa / 02</span>
+                <h1>Vídeo na Web</h1>
+                <p>Imagem e som em movimento. Entenda como os arquivos organizam essas informações e o que considerar ao
+                    publicar um vídeo.</p>
+            </div>
+            <div class="selo" aria-hidden="true">▶</div>
+        </section>
+        <nav class="categorias" aria-label="Tipos de multimídia"><a href="ProjetoAudio.HTML">01 · Áudio</a><a
+                href="ProjetoVideos.HTML" aria-current="page">02 · Vídeo</a><a href="ProjetoImagens.HTML">03 ·
+                Imagens</a></nav>
+        <section class="grade" aria-label="Formatos de vídeo">
+            <article class="cartao">
+                <div class="cartao-topo"><span class="extensao">.mp4</span><span class="tipo">Contêiner</span></div>
+                <h2>MP4</h2>
+                <p>Reúne trilhas de vídeo, áudio e outros dados em um arquivo. Uma combinação comum é vídeo H.264 com
+                    áudio AAC; o suporte depende dos codecs usados.</p>
+                <p class="uso"><strong>Onde faz sentido</strong>Aulas, apresentações e vídeos para reprodução no
+                    navegador.</p>
+                <details>
+                    <summary>Exemplo</summary>
+                    <video src="PPAP.mp4" controls width="460" height="250">© Direitos reservados.</video>
+   
+                </details>
+            </article>
+            <article class="cartao">
+                <div class="cartao-topo"><span class="extensao">.webm</span><span class="tipo">Contêiner</span></div>
+                <h2>WebM</h2>
+                <p>É um contêiner voltado à Web. Pode combinar vídeo VP8, VP9 ou AV1 com áudio Vorbis ou Opus. O codec e
+                    a configuração influenciam tamanho e qualidade.</p>
+                <p class="uso"><strong>Onde faz sentido</strong>Distribuição de vídeo com codecs abertos.</p>
+                <details>
+                    <summary>Exemplo</summary>
+                  <video src="GigaChad.WebM" controls width="460" height="250">© Direitos reservados.</video>
+
+                </details>
+            </article>
+        </section>
+        <aside class="nota">
+            <h2>Formato não é resolução</h2>
+            <p>A extensão identifica o contêiner. O codec comprime e descomprime o conteúdo; a resolução informa as
+                dimensões da imagem. Dois arquivos MP4 podem ter tamanhos e qualidades diferentes.</p>
+            <p class="pendente">Os vídeos citados na versão inicial não estão na pasta. Adicione seus arquivos antes de
+                inserir os reprodutores. Para vídeos com fala, inclua também legendas e uma transcrição.</p>
+        </aside>
+        <aside class="fontes" aria-label="Fontes da pesquisa">
+            <p><strong>Para continuar a pesquisa</strong></p><a
+                href="https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Containers">MDN · Contêineres de
+                mídia ↗</a><a
+                href="https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/codecs_parameter">MDN ·
+                Identificação de codecs ↗</a>
+        </aside>
+        <nav class="proxima" aria-label="Continuar explorando"><a href="ProjetoHome.HTML">← Voltar à HOME</a><a
+                href="ProjetoImagens.HTML">Explorar as imagens →</a></nav>
+    </main>
+    <footer class="rodape container">
+        <div><strong>Projeto · Multimídias na Web</strong>
+            <p>Pesquisa acadêmica sobre formatos de arquivos.</p>
+        </div>
+        <div><strong>Feito por Miguel Melo</strong>
+            <p>A partir das aulas com o professor Manuel Fernandes Ledón.</p>
+            <p>Somente HTML5 + CSS3</p>
+        </div>
+    </footer>
+</body>
+
+</html>
